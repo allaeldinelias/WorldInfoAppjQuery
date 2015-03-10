@@ -9,9 +9,11 @@
 .content {
 	text-align: center;
     border: 2px solid black;
-    width: 500px;
-    margin-left: 400px;
+/*    width: 500px;*/
+/*    margin-left: 400px;*/
     margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: #92C7C7;
     border-radius: 20px ;
     box-shadow: 3px 3px 5px 5px #5E7D7E;
