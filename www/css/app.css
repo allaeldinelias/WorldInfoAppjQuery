@@ -1,0 +1,11 @@
+#current_temp {
+	font-size: 3em;
+}
+
+#current_summary {
+	font-size: 1.5em;
+}
+
+.content {
+	text-align: center;
+}
