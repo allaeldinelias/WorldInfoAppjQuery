@@ -22,7 +22,6 @@
                 contentType: "application/json",
                 dataType: 'jsonp',
                 success: function (json) {
-                    console.log(json);
                     var icon = "";
                     icon = json.weather[0].icon;
 
@@ -38,18 +37,15 @@
                         contentType: "application/json",
                         dataType: 'jsonp',
                         success: function (json2) {
-                            console.log(json2);
 
                             $("#current_time").html(json2.data.time_zone[0].localtime);
 
                         },
                         error: function (e) {
-                            console.log(e.message);
                         }
                     });
                 },
                 error: function (e) {
-                    console.log(e.message);
                 }
             });
 
