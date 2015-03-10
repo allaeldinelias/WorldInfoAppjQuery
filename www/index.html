@@ -29,7 +29,7 @@
                     $("#current_temp_image").attr("src", "http://openweathermap.org/img/w/" + icon + ".png");
                     $("#current_temp").html(Math.round(json.main.temp) + "&#176;C");
                     $("#current_summary").html(json.weather[0].main);
-                    $("#current_temp").attr("data-icon", icons[json.weather.main]);
+//                    $("#current_temp").attr("data-icon", icons[json.weather.main]);
 
                     var timeURL = "http://api.worldweatheronline.com/free/v2/tz.ashx?key=ca731b7dc2a80d4cea43cc5675f76&q="+cityc+"&format=JSON";
                     $.ajax({
@@ -119,7 +119,7 @@
         </div>
         <div data-role="content" class="content">
             <img id="current_temp_image"></img>
-            <h1 id="current_temp" class="icon">&#176;F</h1>
+            <h1 id="current_temp">&#176;F</h1>
             <p id="current_summary">Partly Cloudy</p>
                     <p id="current_time">12:00 PM</p>
             <p id="location">Current Location</p>
