@@ -1,0 +1,26 @@
+{
+  "name": "WorldInfoApp",
+  "version": "1.0.0",
+  "description": "Class Project to show Local Time and Weather using PhoneGap",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobinbc/WorldInfoApp.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobinbc/WorldInfoApp/issues"
+  },
+  "homepage": "https://github.com/bobinbc/WorldInfoApp",
+  "dependencies": {
+    "express": "^4.12.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

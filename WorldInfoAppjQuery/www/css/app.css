@@ -1,0 +1,33 @@
+#current_temp {
+	font-size: 3em;
+}
+
+#current_summary {
+	font-size: 1.5em;
+}
+
+.content {
+	text-align: center;
+    border: 2px solid black;
+/*    width: 500px;*/
+/*    margin-left: 400px;*/
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #92C7C7;
+    border-radius: 20px ;
+    box-shadow: 3px 3px 5px 5px #5E7D7E;
+}
+#location{
+    font-size: 2em;
+}
+
+}
+.header{
+
+    height: 80px;
+}
+.header h1{
+    color: #800000;
+    font-weight: bold;
+}
