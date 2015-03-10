@@ -1,0 +1,4 @@
+<platform name="android">
+    <icon src="app-icon.png" platform="android" width="57" height="57" />
+<!--    <splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi"/>-->
+</platform>
