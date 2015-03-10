@@ -22,7 +22,10 @@
     font-size: 2em;
 }
 
+#current_time{
+    font-size: 2em;
 }
+
 .header{
 
     height: 80px;

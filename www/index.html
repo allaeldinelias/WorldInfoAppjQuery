@@ -36,8 +36,8 @@
                         contentType: "application/json",
                         dataType: 'jsonp',
                         success: function (json2) {
-
-                            $("#current_time").html(json2.data.time_zone[0].localtime);
+                            var dateer = json2.data.time_zone[0].localtime.split(' ')[1];
+                            $("#current_time").html(dateer);
 
                         },
                         error: function (e) {}
